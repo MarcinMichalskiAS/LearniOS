@@ -8,11 +8,25 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
+    @objc func addTapped() {
+        navigationController?.pushViewController(RegisterVievController(), animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addTapped))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(addTapped))
         view.backgroundColor = .cyan
-        // Do any additional setup after loading the view.
     }
 }
+
+class RegisterVievController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .yellow
+    }
+}
+
 
