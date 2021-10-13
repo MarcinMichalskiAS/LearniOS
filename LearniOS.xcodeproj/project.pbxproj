@@ -46,12 +46,12 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		78854B5327141402002DBCCD /* Bese */ = {
+		78854B5327141402002DBCCD /* Base */ = {
 			isa = PBXGroup;
 			children = (
 				78854B5427141413002DBCCD /* BaseView.swift */,
 			);
-			path = Bese;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		C01B9EC42710AFAB00A38F40 = {
@@ -73,7 +73,7 @@
 		C01B9ECF2710AFAB00A38F40 /* LearniOS */ = {
 			isa = PBXGroup;
 			children = (
-				78854B5327141402002DBCCD /* Bese */,
+				78854B5327141402002DBCCD /* Base */,
 				78854B5027141310002DBCCD /* Login */,
 				C01B9ED02710AFAB00A38F40 /* AppDelegate.swift */,
 				C01B9ED92710AFAB00A38F40 /* Assets.xcassets */,
