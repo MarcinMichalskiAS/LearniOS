@@ -12,36 +12,18 @@ class LoginViewController: UIViewController {
     override func loadView() {
         view = customView
     }
-        
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        customView.activityIndicator.startAnimating()
+
+        customView.sumButton.addTarget(self, action: #selector(showAlert), for: .touchUpInside)
+    }
+
+    @objc func showAlert() {
+        let alert = UIAlertController(title: "Atention!", message: "Wrong Login or Password", preferredStyle: .alert)
+        present(alert, animated: true, completion: nil)
+    }
+
     let customView = LoginView()
-    
-    @objc func openRegister() {
-        navigationController?.pushViewController(RegisterVievController(), animated: true)
-        customView.backgroundColor = .red
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(openRegister))
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Open register", style: .plain, target: self, action: #selector(openRegister))
-        customView.sumButton.addTarget(self, action: #selector(sum), for: .touchUpInside)
-    }
-    
-    @objc func sum() {
-        let value1 = customView.firstNumberTextField.text ?? "0"
-        let value2 = customView.secondNumberTextField.text ?? "0"
-        let intValue1 = Int(value1) ?? 0
-        let intValue2 = Int(value2) ?? 0
-        print(intValue1 + intValue2)
-    }
 }
-
-class RegisterVievController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .yellow
-    }
-}
-
-
