@@ -2,7 +2,7 @@ import UIKit
 
 class LoginView: BaseView {
     let firstNumberTextField = UITextField()
-    let secondNumberTextField = UITextField()
+    let secondNumberTextField = UITextField ()
     let sumButton = UIButton(type: .system)
     let helloLabel = UILabel()
     let activityIndicator = UIActivityIndicatorView()
