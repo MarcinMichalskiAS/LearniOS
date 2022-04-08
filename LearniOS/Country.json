@@ -1,0 +1,42 @@
+[
+   {
+      "name":{
+         "common":"Poland",
+         "official":"Republic of Poland",
+      },
+      "independent":true,
+      "capital":[
+         "Warsaw"
+      ],
+      "region":"Europe",
+      "subregion":"Central Europe",
+      "languages":{
+         "pol":"Polish"
+      },
+      "borders":[
+         "BLR",
+         "CZE",
+         "DEU",
+         "LTU",
+         "RUS",
+         "SVK",
+         "UKR"
+      ],
+      "area":312679.0,
+
+      "maps":{
+         "googleMaps":"https://goo.gl/maps/gY9Xw4Sf4415P4949",
+         "openStreetMaps":"https://www.openstreetmap.org/relation/49715"
+      },
+      "population":37950802,
+      "flags":{
+         "png":"https://flagcdn.com/w320/pl.png",
+         "svg":"https://flagcdn.com/pl.svg"
+      },
+      "coatOfArms":{
+         "png":"https://mainfacts.com/media/images/coats_of_arms/pl.png",
+         "svg":"https://mainfacts.com/media/images/coats_of_arms/pl.svg"
+      },
+      "startOfWeek":"monday",
+   }
+]

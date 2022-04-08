@@ -6,6 +6,7 @@ class BaseView: UIView {
         super.init(frame: .zero)
         setupProperties()
         setupConstraints()
+
     }
 
     @available(*, unavailable)

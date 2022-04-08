@@ -3,9 +3,11 @@ import UIKit
 class LoginView: BaseView {
     let firstNumberTextField = UITextField()
     let secondNumberTextField = UITextField ()
-    let sumButton = UIButton(type: .system)
+    let openCountriesButton = UIButton(type: .system)
+    let countryButton = UIButton(type: .system)
     let helloLabel = UILabel()
     let activityIndicator = UIActivityIndicatorView()
+    
     override func setupProperties() {
         [firstNumberTextField, secondNumberTextField].forEach { textField in
             textField.keyboardType = .default
@@ -16,14 +18,19 @@ class LoginView: BaseView {
 
         helloLabel.text = "Hello"
 
-        sumButton.backgroundColor = Colors.buttonOrange
-        sumButton.setTitle("Sign in", for: .normal)
-        sumButton.setTitleColor(.black, for: .normal)
+        openCountriesButton.backgroundColor = Colors.buttonOrange
+        openCountriesButton.setTitle("Sign in", for: .normal)
+        openCountriesButton.setTitleColor(.black, for: .normal)
+        
+        countryButton.backgroundColor = Colors.buttonOrange
+        countryButton.setTitle("Print Country", for: .normal)
+        countryButton.setTitleColor(.black, for: .normal)
+
 
         firstNumberTextField.placeholder = "Login"
         secondNumberTextField.placeholder = "Password"
 
-        [firstNumberTextField, secondNumberTextField, sumButton].forEach { bordersAndCorners in
+        [firstNumberTextField, secondNumberTextField, openCountriesButton, countryButton].forEach { bordersAndCorners in
             bordersAndCorners.layer.cornerRadius = 8
         }
 
@@ -35,7 +42,7 @@ class LoginView: BaseView {
     }
     
     override func setupConstraints() {
-        [firstNumberTextField, secondNumberTextField, sumButton, helloLabel, activityIndicator].forEach { view in
+        [firstNumberTextField, secondNumberTextField, openCountriesButton, helloLabel, activityIndicator, countryButton].forEach { view in
             addSubview(view)
             view.translatesAutoresizingMaskIntoConstraints = false
         }
@@ -50,10 +57,15 @@ class LoginView: BaseView {
         secondNumberTextField.topAnchor.constraint(equalTo: firstNumberTextField.bottomAnchor, constant: 15).isActive = true
         secondNumberTextField.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         
-        sumButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        sumButton.widthAnchor.constraint(equalToConstant: 120).isActive = true
-        sumButton.topAnchor.constraint(equalTo: secondNumberTextField.bottomAnchor,constant: 15).isActive = true
-        sumButton.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        openCountriesButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        openCountriesButton.widthAnchor.constraint(equalToConstant: 120).isActive = true
+        openCountriesButton.topAnchor.constraint(equalTo: secondNumberTextField.bottomAnchor,constant: 15).isActive = true
+        openCountriesButton.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        
+        countryButton.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        countryButton.widthAnchor.constraint(equalToConstant: 120).isActive = true
+        countryButton.topAnchor.constraint(equalTo: openCountriesButton.bottomAnchor,constant: 15).isActive = true
+        countryButton.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
 
         helloLabel.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor,constant: 15).isActive = true
         helloLabel.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true

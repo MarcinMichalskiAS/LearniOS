@@ -3,14 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7809088527B04CC3005A1ED8 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809088427B04CC3005A1ED8 /* KeyboardView.swift */; };
+		7809088727B04CDB005A1ED8 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7809088627B04CDB005A1ED8 /* KeyboardViewController.swift */; };
+		7823E490279A01EB000832E3 /* Country.json in Resources */ = {isa = PBXBuildFile; fileRef = 7823E48F279A01EB000832E3 /* Country.json */; };
+		7823E492279A03D2000832E3 /* CountryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7823E491279A03D2000832E3 /* CountryDetails.swift */; };
+		7823E495279A15C6000832E3 /* Bagel in Frameworks */ = {isa = PBXBuildFile; productRef = 7823E494279A15C6000832E3 /* Bagel */; };
+		782D5D0127B894A600780C6D /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782D5D0027B894A600780C6D /* KeyboardButton.swift */; };
+		787FE0B72789DA4700B6EA37 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FE0B62789DA4700B6EA37 /* NetworkManager.swift */; };
+		787FE0BA2789DD2D00B6EA37 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787FE0B92789DD2D00B6EA37 /* Countries.swift */; };
 		7883147A271D557800F3553E /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78831479271D557800F3553E /* RegisterView.swift */; };
 		7883147C271D558D00F3553E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7883147B271D558D00F3553E /* RegisterViewController.swift */; };
 		78854B522714132E002DBCCD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78854B512714132E002DBCCD /* LoginView.swift */; };
 		78854B5527141413002DBCCD /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78854B5427141413002DBCCD /* BaseView.swift */; };
+		7887A791278F3D7600E3C236 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7887A790278F3D7600E3C236 /* Kingfisher */; };
+		789FC49E27285CDD009BBAF7 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789FC49D27285CDD009BBAF7 /* CountryView.swift */; };
+		789FC4A027285CF2009BBAF7 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789FC49F27285CF2009BBAF7 /* CountryViewController.swift */; };
+		78EA2359271D79F70096DD16 /* CountriesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA2358271D79F70096DD16 /* CountriesListView.swift */; };
+		78EA235B271D7A0E0096DD16 /* CountriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EA235A271D7A0E0096DD16 /* CountriesListViewController.swift */; };
 		C01B9ED12710AFAB00A38F40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B9ED02710AFAB00A38F40 /* AppDelegate.swift */; };
 		C01B9ED52710AFAB00A38F40 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B9ED42710AFAB00A38F40 /* LoginViewController.swift */; };
 		C01B9EDA2710AFAB00A38F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01B9ED92710AFAB00A38F40 /* Assets.xcassets */; };
@@ -20,10 +33,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7809088427B04CC3005A1ED8 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		7809088627B04CDB005A1ED8 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		7823E48F279A01EB000832E3 /* Country.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Country.json; sourceTree = "<group>"; };
+		7823E491279A03D2000832E3 /* CountryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetails.swift; sourceTree = "<group>"; };
+		782D5D0027B894A600780C6D /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
+		787FE0B62789DA4700B6EA37 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		787FE0B92789DD2D00B6EA37 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
 		78831479271D557800F3553E /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		7883147B271D558D00F3553E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		78854B512714132E002DBCCD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		78854B5427141413002DBCCD /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		789FC49D27285CDD009BBAF7 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		789FC49F27285CF2009BBAF7 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; tabWidth = 5; };
+		78EA2358271D79F70096DD16 /* CountriesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesListView.swift; sourceTree = "<group>"; };
+		78EA235A271D7A0E0096DD16 /* CountriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesListViewController.swift; sourceTree = "<group>"; };
 		C01B9ECD2710AFAB00A38F40 /* LearniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01B9ED02710AFAB00A38F40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C01B9ED42710AFAB00A38F40 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -39,12 +63,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7823E495279A15C6000832E3 /* Bagel in Frameworks */,
+				7887A791278F3D7600E3C236 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7809088327B04C99005A1ED8 /* LoginKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7809088427B04CC3005A1ED8 /* KeyboardView.swift */,
+				7809088627B04CDB005A1ED8 /* KeyboardViewController.swift */,
+				782D5D0027B894A600780C6D /* KeyboardButton.swift */,
+			);
+			path = LoginKeyboard;
+			sourceTree = "<group>";
+		};
+		787FE0B82789DA5900B6EA37 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				787FE0B92789DD2D00B6EA37 /* Countries.swift */,
+				787FE0B62789DA4700B6EA37 /* NetworkManager.swift */,
+				7823E491279A03D2000832E3 /* CountryDetails.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
 		78831478271D556700F3553E /* Register */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +103,8 @@
 		78854B5027141310002DBCCD /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				C01B9ED42710AFAB00A38F40 /* LoginViewController.swift */,
 				78854B512714132E002DBCCD /* LoginView.swift */,
+				C01B9ED42710AFAB00A38F40 /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -69,6 +115,24 @@
 				78854B5427141413002DBCCD /* BaseView.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		789FC49C27285C8B009BBAF7 /* PlantDetails */ = {
+			isa = PBXGroup;
+			children = (
+				789FC49D27285CDD009BBAF7 /* CountryView.swift */,
+				789FC49F27285CF2009BBAF7 /* CountryViewController.swift */,
+			);
+			path = PlantDetails;
+			sourceTree = "<group>";
+		};
+		78EA235C271D7A140096DD16 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				78EA2358271D79F70096DD16 /* CountriesListView.swift */,
+				78EA235A271D7A0E0096DD16 /* CountriesListViewController.swift */,
+			);
+			path = Table;
 			sourceTree = "<group>";
 		};
 		C01B9EC42710AFAB00A38F40 = {
@@ -90,14 +154,19 @@
 		C01B9ECF2710AFAB00A38F40 /* LearniOS */ = {
 			isa = PBXGroup;
 			children = (
+				7809088327B04C99005A1ED8 /* LoginKeyboard */,
+				787FE0B82789DA5900B6EA37 /* NetworkManager */,
 				C05DED522719579900614C66 /* Tools */,
 				78854B5327141402002DBCCD /* Base */,
-				78831478271D556700F3553E /* Register */,
 				78854B5027141310002DBCCD /* Login */,
+				78831478271D556700F3553E /* Register */,
+				789FC49C27285C8B009BBAF7 /* PlantDetails */,
+				78EA235C271D7A140096DD16 /* Table */,
 				C01B9ED02710AFAB00A38F40 /* AppDelegate.swift */,
 				C01B9ED92710AFAB00A38F40 /* Assets.xcassets */,
 				C01B9EDB2710AFAB00A38F40 /* LaunchScreen.storyboard */,
 				C01B9EDE2710AFAB00A38F40 /* Info.plist */,
+				7823E48F279A01EB000832E3 /* Country.json */,
 			);
 			path = LearniOS;
 			sourceTree = "<group>";
@@ -135,6 +204,10 @@
 			dependencies = (
 			);
 			name = LearniOS;
+			packageProductDependencies = (
+				7887A790278F3D7600E3C236 /* Kingfisher */,
+				7823E494279A15C6000832E3 /* Bagel */,
+			);
 			productName = LearniOS;
 			productReference = C01B9ECD2710AFAB00A38F40 /* LearniOS.app */;
 			productType = "com.apple.product-type.application";
@@ -162,6 +235,10 @@
 				Base,
 			);
 			mainGroup = C01B9EC42710AFAB00A38F40;
+			packageReferences = (
+				7887A78F278F3D7500E3C236 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				7823E493279A15C6000832E3 /* XCRemoteSwiftPackageReference "Bagel" */,
+			);
 			productRefGroup = C01B9ECE2710AFAB00A38F40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -177,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C01B9EDD2710AFAB00A38F40 /* LaunchScreen.storyboard in Resources */,
+				7823E490279A01EB000832E3 /* Country.json in Resources */,
 				C01B9EDA2710AFAB00A38F40 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,12 +268,22 @@
 			files = (
 				78854B522714132E002DBCCD /* LoginView.swift in Sources */,
 				C05DED572719589200614C66 /* UIColor.swift in Sources */,
+				7809088727B04CDB005A1ED8 /* KeyboardViewController.swift in Sources */,
 				C05DED54271957B300614C66 /* Colors.swift in Sources */,
+				787FE0B72789DA4700B6EA37 /* NetworkManager.swift in Sources */,
+				78EA235B271D7A0E0096DD16 /* CountriesListViewController.swift in Sources */,
+				782D5D0127B894A600780C6D /* KeyboardButton.swift in Sources */,
 				7883147C271D558D00F3553E /* RegisterViewController.swift in Sources */,
+				78EA2359271D79F70096DD16 /* CountriesListView.swift in Sources */,
+				7809088527B04CC3005A1ED8 /* KeyboardView.swift in Sources */,
 				7883147A271D557800F3553E /* RegisterView.swift in Sources */,
 				C01B9ED52710AFAB00A38F40 /* LoginViewController.swift in Sources */,
 				C01B9ED12710AFAB00A38F40 /* AppDelegate.swift in Sources */,
+				7823E492279A03D2000832E3 /* CountryDetails.swift in Sources */,
 				78854B5527141413002DBCCD /* BaseView.swift in Sources */,
+				789FC4A027285CF2009BBAF7 /* CountryViewController.swift in Sources */,
+				787FE0BA2789DD2D00B6EA37 /* Countries.swift in Sources */,
+				789FC49E27285CDD009BBAF7 /* CountryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +475,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7823E493279A15C6000832E3 /* XCRemoteSwiftPackageReference "Bagel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mran3/Bagel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
+		7887A78F278F3D7500E3C236 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7823E494279A15C6000832E3 /* Bagel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7823E493279A15C6000832E3 /* XCRemoteSwiftPackageReference "Bagel" */;
+			productName = Bagel;
+		};
+		7887A790278F3D7600E3C236 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7887A78F278F3D7500E3C236 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C01B9EC52710AFAB00A38F40 /* Project object */;
 }
